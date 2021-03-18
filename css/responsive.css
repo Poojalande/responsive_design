@@ -1,0 +1,117 @@
+a:hover {
+    text-decoration: none;
+}
+
+.section {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.section h2.section-head {
+    color: #000;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section h2.section-head:after {
+    background-color: #e74c3c;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+}
+
+#logo {
+    font-size: 2 rem;
+    margin-top: 5px;
+}
+
+#header {
+    color: white;
+    background-color: #e74c3c;
+}
+
+#banner {
+    background: url('../images/b1.jpg') no-repeat 0 0;
+    background-size: cover;
+}
+
+.banner-title {
+    padding-top: 5rem;
+}
+
+.banner-title h1 {
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+
+.banner-title p.lead {
+    color: white;
+    background-color: rgba(231, 76, 60, 0.7);
+    padding: 10px;
+}
+
+.service-box {
+    text-align: center;
+}
+
+.service-box i.fa {
+    color: #e74c3c;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+body {
+    font-family: 'Kaushan Script', cursive;
+    font-size: x-large;
+}
+
+.height {
+    min-height: 100vh;
+}
+
+.title-undurline {
+    width: 250px;
+    height: 10px;
+    margin: 0 auto;
+    /* background: blueviolet!important; */
+}
+
+.height-80 {
+    min-height: 100vh;
+}
+
+.about-picture {
+    background: url(../images/father.jpg)center/cover no-repeat fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#filler {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/weather.jpg)center/cover no-repeat fixed;
+}
+
+#progress {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/progress.jpg)center/cover no-repeat fixed;
+}
+
+#blog {
+    background-color: rgb(245, 43, 151);
+}
+
+#pricing {
+    background-color: hotpink;
+}
+
+#contact {
+    background-color: olivedrab;
+}
+
+#curousel {
+    background-color: lightgreen;
+}
